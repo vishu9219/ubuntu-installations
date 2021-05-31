@@ -13,6 +13,7 @@ sudo apt-get install -y pkg-config
 cd ~
 wget http://www.leptonica.org/source/leptonica-1.80.0.tar.gz
 tar -zxvf leptonica-1.80.0.tar.gz
+rm leptonica-1.80.0.tar.gz
 cd leptonica-1.80.0/
 ./configure
 make
