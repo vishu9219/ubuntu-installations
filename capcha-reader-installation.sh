@@ -21,7 +21,7 @@ sudo ldconfig
 
 #install Tesserect
 cd ~ 
-git clone https://github.com/tesseract-ocr/tesseract.git
+git clone https://github.com/UB-Mannheim/tesseract.git
 cd tesseract
 ./autogen.sh
 ./configure
@@ -30,8 +30,8 @@ sudo make install
 sudo ldconfig
 
 #download and store the english language
-cd ~
-git clone https://github.com/tesseract-ocr/tessdata.git
-sudo rm -rf  /usr/local/share/tessdata/*
-sudo mv ~/tessdata/* /usr/local/share/tessdata/
-rm -rf ~/tessdata
+# cd ~
+# git clone https://github.com/tesseract-ocr/tessdata.git
+# sudo rm -rf  /usr/local/share/tessdata/*
+# sudo mv ~/tessdata/* /usr/local/share/tessdata/
+# rm -rf ~/tessdata
