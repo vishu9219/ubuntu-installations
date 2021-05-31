@@ -6,6 +6,7 @@ sudo apt-get install -y libpng-dev libjpeg-dev libtiff-dev zlib1g-dev
 sudo apt-get install -y gcc g++
 sudo apt-get install -y autoconf automake libtool checkinstall
 sudo apt-get install -y pkg-config
+sudo apt-get install -y make
 
 
 # Leptonica is needed for Tesserect to run
